@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: roboto;
+}
+
+content {
+    display: flex;
+}
+
+.header, footer {
+    background-color: #1F2937;
+    height: 50px;
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold; 
+    margin-bottom: 10px;  
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+li {
+    list-style-type: none;
+}
+.right-header, .one-four > p { 
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.left-header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button  {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:10%;
+    margin-top: 15px;
+}
+
+.header { 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.right-header {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.one-four {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
+}
+
+.one-four-left {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.one-four-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.two-four {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 30px;
+}
+
+.card-deck {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding:40px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 5px;
+}
+
+.card > img {
+    border: 2px #3882F6;
+    border-style: solid;
+    border-radius: 2%;
+}
+
+.three-four {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 100px;
+    font-size: 25px;
+}
+
+.three-four > blockquote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.three-four > p {
+    font-weight: bolder;
+}
+
+.four-four {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.call-to-action {
+   background-color: #3882F6;
+   padding: 70px;
+   border-radius: 2%;
+   display: flex;
+   justify-content: space-around;
+   border: 40px;
+}
+
+.call-to-action > button {
+    border: 1px #E5E7EB;
+    border-style: solid;
+}
+
+footer {
+    display: flex;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: flex-end;
+
+}
